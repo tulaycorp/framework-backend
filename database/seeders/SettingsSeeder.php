@@ -14,7 +14,7 @@ class SettingsSeeder extends Seeder
     {
         $settings = [
             ['key' => 'maintenance_mode', 'value' => 'false'],
-            ['key' => 'announcement_enabled', 'value' => 'false'],
+            ['key' => 'announcement_enabled', 'value' => 'true'],
             ['key' => 'announcement_message', 'value' => '⚡ WINTER SALE: 50% OFF ⚡'],
             ['key' => 'sold_out_title', 'value' => 'Sold Out'],
             ['key' => 'sold_out_subtitle', 'value' => 'Last Drop'],
